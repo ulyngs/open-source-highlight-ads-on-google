@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7ED543F23DF373800639A5D /* Highlight_Ads_on_Google_com.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = D7ED543E23DF373800639A5D /* Highlight_Ads_on_Google_com.entitlements */; };
+		D7ED544123DF373800639A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED544023DF373800639A5D /* AppDelegate.swift */; };
+		D7ED544423DF373800639A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED544223DF373800639A5D /* Main.storyboard */; };
+		D7ED544623DF373800639A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED544523DF373800639A5D /* ViewController.swift */; };
+		D7ED544823DF373900639A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ED544723DF373900639A5D /* Assets.xcassets */; };
+		D7ED544F23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7ED544E23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7ED545423DF373A00639A5D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ED545323DF373A00639A5D /* Cocoa.framework */; };
+		D7ED545723DF373A00639A5D /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED545623DF373A00639A5D /* SafariExtensionHandler.swift */; };
+		D7ED545923DF373A00639A5D /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED545823DF373A00639A5D /* SafariExtensionViewController.swift */; };
+		D7ED545C23DF373A00639A5D /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7ED545A23DF373A00639A5D /* SafariExtensionViewController.xib */; };
+		D7ED545F23DF373A00639A5D /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D7ED545E23DF373A00639A5D /* script.js */; };
+		D7ED546123DF373A00639A5D /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D7ED546023DF373A00639A5D /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7ED545023DF373A00639A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7ED543323DF373800639A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7ED544D23DF373A00639A5D;
+			remoteInfo = "Highlight Ads on Google.com Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7ED546823DF373A00639A5D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7ED544F23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7ED543B23DF373800639A5D /* Highlight Ads on Google.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Highlight Ads on Google.com.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7ED543E23DF373800639A5D /* Highlight_Ads_on_Google_com.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Highlight_Ads_on_Google_com.entitlements; sourceTree = "<group>"; };
+		D7ED544023DF373800639A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7ED544323DF373800639A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7ED544523DF373800639A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7ED544723DF373900639A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7ED544923DF373900639A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ED544E23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Highlight Ads on Google.com Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7ED545323DF373A00639A5D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D7ED545623DF373A00639A5D /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		D7ED545823DF373A00639A5D /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		D7ED545B23DF373A00639A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		D7ED545D23DF373A00639A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ED545E23DF373A00639A5D /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		D7ED546023DF373A00639A5D /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		D7ED546223DF373A00639A5D /* Highlight_Ads_on_Google_com_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Highlight_Ads_on_Google_com_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7ED543823DF373800639A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7ED544B23DF373A00639A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7ED545423DF373A00639A5D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7ED543223DF373800639A5D = {
+			isa = PBXGroup;
+			children = (
+				D7ED543D23DF373800639A5D /* Highlight Ads on Google.com */,
+				D7ED545523DF373A00639A5D /* Highlight Ads on Google.com Extension */,
+				D7ED545223DF373A00639A5D /* Frameworks */,
+				D7ED543C23DF373800639A5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7ED543C23DF373800639A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED543B23DF373800639A5D /* Highlight Ads on Google.com.app */,
+				D7ED544E23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7ED543D23DF373800639A5D /* Highlight Ads on Google.com */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED543E23DF373800639A5D /* Highlight_Ads_on_Google_com.entitlements */,
+				D7ED544023DF373800639A5D /* AppDelegate.swift */,
+				D7ED544223DF373800639A5D /* Main.storyboard */,
+				D7ED544523DF373800639A5D /* ViewController.swift */,
+				D7ED544723DF373900639A5D /* Assets.xcassets */,
+				D7ED544923DF373900639A5D /* Info.plist */,
+			);
+			path = "Highlight Ads on Google.com";
+			sourceTree = "<group>";
+		};
+		D7ED545223DF373A00639A5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED545323DF373A00639A5D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7ED545523DF373A00639A5D /* Highlight Ads on Google.com Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED545623DF373A00639A5D /* SafariExtensionHandler.swift */,
+				D7ED545823DF373A00639A5D /* SafariExtensionViewController.swift */,
+				D7ED545A23DF373A00639A5D /* SafariExtensionViewController.xib */,
+				D7ED545D23DF373A00639A5D /* Info.plist */,
+				D7ED545E23DF373A00639A5D /* script.js */,
+				D7ED546023DF373A00639A5D /* ToolbarItemIcon.pdf */,
+				D7ED546223DF373A00639A5D /* Highlight_Ads_on_Google_com_Extension.entitlements */,
+			);
+			path = "Highlight Ads on Google.com Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7ED543A23DF373800639A5D /* Highlight Ads on Google.com */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7ED546923DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads on Google.com" */;
+			buildPhases = (
+				D7ED543723DF373800639A5D /* Sources */,
+				D7ED543823DF373800639A5D /* Frameworks */,
+				D7ED543923DF373800639A5D /* Resources */,
+				D7ED546823DF373A00639A5D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7ED545123DF373A00639A5D /* PBXTargetDependency */,
+			);
+			name = "Highlight Ads on Google.com";
+			productName = "Highlight Ads on Google.com";
+			productReference = D7ED543B23DF373800639A5D /* Highlight Ads on Google.com.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7ED544D23DF373A00639A5D /* Highlight Ads on Google.com Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7ED546523DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads on Google.com Extension" */;
+			buildPhases = (
+				D7ED544A23DF373A00639A5D /* Sources */,
+				D7ED544B23DF373A00639A5D /* Frameworks */,
+				D7ED544C23DF373A00639A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Highlight Ads on Google.com Extension";
+			productName = "Highlight Ads on Google.com Extension";
+			productReference = D7ED544E23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7ED543323DF373800639A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ulrik Lyngs";
+				TargetAttributes = {
+					D7ED543A23DF373800639A5D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D7ED544D23DF373A00639A5D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = D7ED543623DF373800639A5D /* Build configuration list for PBXProject "Highlight Ads on Google.com" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7ED543223DF373800639A5D;
+			productRefGroup = D7ED543C23DF373800639A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7ED543A23DF373800639A5D /* Highlight Ads on Google.com */,
+				D7ED544D23DF373A00639A5D /* Highlight Ads on Google.com Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7ED543923DF373800639A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7ED543F23DF373800639A5D /* Highlight_Ads_on_Google_com.entitlements in Resources */,
+				D7ED544823DF373900639A5D /* Assets.xcassets in Resources */,
+				D7ED544423DF373800639A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7ED544C23DF373A00639A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7ED546123DF373A00639A5D /* ToolbarItemIcon.pdf in Resources */,
+				D7ED545C23DF373A00639A5D /* SafariExtensionViewController.xib in Resources */,
+				D7ED545F23DF373A00639A5D /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7ED543723DF373800639A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7ED544623DF373800639A5D /* ViewController.swift in Sources */,
+				D7ED544123DF373800639A5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7ED544A23DF373A00639A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7ED545923DF373A00639A5D /* SafariExtensionViewController.swift in Sources */,
+				D7ED545723DF373A00639A5D /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7ED545123DF373A00639A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7ED544D23DF373A00639A5D /* Highlight Ads on Google.com Extension */;
+			targetProxy = D7ED545023DF373A00639A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7ED544223DF373800639A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7ED544323DF373800639A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7ED545A23DF373A00639A5D /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7ED545B23DF373A00639A5D /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7ED546323DF373A00639A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7ED546423DF373A00639A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D7ED546623DF373A00639A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Highlight Ads on Google.com Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UL.Highlight-Ads-on-Google-com-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7ED546723DF373A00639A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Highlight Ads on Google.com Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UL.Highlight-Ads-on-Google-com-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7ED546A23DF373A00639A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com/Highlight_Ads_on_Google_com.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Highlight Ads on Google.com/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UL.Highlight-Ads-on-Google-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7ED546B23DF373A00639A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com/Highlight_Ads_on_Google_com.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7YEYWQKK25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Highlight Ads on Google.com/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UL.Highlight-Ads-on-Google-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7ED543623DF373800639A5D /* Build configuration list for PBXProject "Highlight Ads on Google.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7ED546323DF373A00639A5D /* Debug */,
+				D7ED546423DF373A00639A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7ED546523DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads on Google.com Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7ED546623DF373A00639A5D /* Debug */,
+				D7ED546723DF373A00639A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7ED546923DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads on Google.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7ED546A23DF373A00639A5D /* Debug */,
+				D7ED546B23DF373A00639A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7ED543323DF373800639A5D /* Project object */;
+}
