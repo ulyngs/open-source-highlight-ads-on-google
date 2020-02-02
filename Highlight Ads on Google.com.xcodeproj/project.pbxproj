@@ -17,8 +17,7 @@
 		D7ED545723DF373A00639A5D /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED545623DF373A00639A5D /* SafariExtensionHandler.swift */; };
 		D7ED545923DF373A00639A5D /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED545823DF373A00639A5D /* SafariExtensionViewController.swift */; };
 		D7ED545C23DF373A00639A5D /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7ED545A23DF373A00639A5D /* SafariExtensionViewController.xib */; };
-		D7ED545F23DF373A00639A5D /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D7ED545E23DF373A00639A5D /* script.js */; };
-		D7ED546123DF373A00639A5D /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D7ED546023DF373A00639A5D /* ToolbarItemIcon.pdf */; };
+		D7ED546D23DF378500639A5D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7ED546C23DF378500639A5D /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +58,8 @@
 		D7ED545823DF373A00639A5D /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		D7ED545B23DF373A00639A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		D7ED545D23DF373A00639A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7ED545E23DF373A00639A5D /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		D7ED546023DF373A00639A5D /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		D7ED546223DF373A00639A5D /* Highlight_Ads_on_Google_com_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Highlight_Ads_on_Google_com_Extension.entitlements; sourceTree = "<group>"; };
+		D7ED546C23DF378500639A5D /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +128,8 @@
 				D7ED545823DF373A00639A5D /* SafariExtensionViewController.swift */,
 				D7ED545A23DF373A00639A5D /* SafariExtensionViewController.xib */,
 				D7ED545D23DF373A00639A5D /* Info.plist */,
-				D7ED545E23DF373A00639A5D /* script.js */,
-				D7ED546023DF373A00639A5D /* ToolbarItemIcon.pdf */,
 				D7ED546223DF373A00639A5D /* Highlight_Ads_on_Google_com_Extension.entitlements */,
+				D7ED546C23DF378500639A5D /* style.css */,
 			);
 			path = "Highlight Ads on Google.com Extension";
 			sourceTree = "<group>";
@@ -228,9 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7ED546123DF373A00639A5D /* ToolbarItemIcon.pdf in Resources */,
 				D7ED545C23DF373A00639A5D /* SafariExtensionViewController.xib in Resources */,
-				D7ED545F23DF373A00639A5D /* script.js in Resources */,
+				D7ED546D23DF378500639A5D /* style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +399,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Highlight Ads on Google.com Extension/Info.plist";
@@ -411,7 +408,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "UL.Highlight-Ads-on-Google-com-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.ad-highlighter.ad-highlighter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -423,6 +420,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Highlight Ads on Google.com Extension/Info.plist";
@@ -431,7 +429,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "UL.Highlight-Ads-on-Google-com-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.ad-highlighter.ad-highlighter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,6 +444,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com/Highlight_Ads_on_Google_com.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Highlight Ads on Google.com/Info.plist";
@@ -453,7 +452,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "UL.Highlight-Ads-on-Google-com";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.ad-highlighter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -467,6 +466,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com/Highlight_Ads_on_Google_com.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Highlight Ads on Google.com/Info.plist";
@@ -474,7 +474,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "UL.Highlight-Ads-on-Google-com";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.ad-highlighter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

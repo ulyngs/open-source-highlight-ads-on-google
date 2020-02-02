@@ -15,11 +15,11 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.appNameLabel.stringValue = "Highlight Ads on Google.com";
+        //self.appNameLabel.stringValue = "Highlight Ads on Google.com";
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: "UL.Highlight-Ads-on-Google-com-Extension") { error in
+        SFSafariApplication.showPreferencesForExtension(withIdentifier: "com.ulriklyngs.ad-highlighter.ad-highlighter") { error in
             if let _ = error {
                 // Insert code to inform the user that something went wrong.
 

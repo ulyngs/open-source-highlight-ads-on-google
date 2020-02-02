@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
@@ -33,6 +33,13 @@
 			<dict>
 				<key>Script</key>
 				<string>script.js</string>
+			</dict>
+		</array>
+		<key>SFSafariStyleSheet</key>
+		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>style.css</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
@@ -50,7 +57,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>*.webkit.org</string>
+				<string>*.google.com</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>
@@ -59,6 +66,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020 Ulrik Lyngs. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>This is a Safari Extension. You should tell us what your extension does here.</string>
+	<string>Highlights ads when searching on google.com</string>
 </dict>
 </plist>
