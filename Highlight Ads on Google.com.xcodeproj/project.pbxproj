@@ -399,7 +399,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Highlight Ads on Google.com Extension/Info.plist";
@@ -408,6 +408,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.ad-highlighter.ad-highlighter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -420,7 +421,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Highlight Ads on Google.com Extension/Info.plist";
@@ -429,6 +430,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.ad-highlighter.ad-highlighter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -444,7 +446,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com/Highlight_Ads_on_Google_com.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Highlight Ads on Google.com/Info.plist";
@@ -452,6 +454,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.ad-highlighter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -466,7 +469,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com/Highlight_Ads_on_Google_com.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Highlight Ads on Google.com/Info.plist";
@@ -474,6 +477,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.ad-highlighter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

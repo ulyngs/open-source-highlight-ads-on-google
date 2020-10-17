@@ -1,4 +1,4 @@
-div[aria-label="Ads"],
+#tads,
 .ads-visurl > span {
     background-color: #F2E6C3 !important;
 }
