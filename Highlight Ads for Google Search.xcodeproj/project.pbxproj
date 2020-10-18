@@ -12,7 +12,7 @@
 		D7ED544423DF373800639A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED544223DF373800639A5D /* Main.storyboard */; };
 		D7ED544623DF373800639A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED544523DF373800639A5D /* ViewController.swift */; };
 		D7ED544823DF373900639A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ED544723DF373900639A5D /* Assets.xcassets */; };
-		D7ED544F23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7ED544E23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7ED544F23DF373A00639A5D /* Highlight Ads for Google Search Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7ED544E23DF373A00639A5D /* Highlight Ads for Google Search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D7ED545423DF373A00639A5D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ED545323DF373A00639A5D /* Cocoa.framework */; };
 		D7ED545723DF373A00639A5D /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED545623DF373A00639A5D /* SafariExtensionHandler.swift */; };
 		D7ED545923DF373A00639A5D /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED545823DF373A00639A5D /* SafariExtensionViewController.swift */; };
@@ -37,7 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D7ED544F23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex in Embed App Extensions */,
+				D7ED544F23DF373A00639A5D /* Highlight Ads for Google Search Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,14 +45,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D7ED543B23DF373800639A5D /* Highlight Ads on Google.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Highlight Ads on Google.com.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7ED543B23DF373800639A5D /* Highlight Ads for Google Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Highlight Ads for Google Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ED543E23DF373800639A5D /* Highlight_Ads_on_Google_com.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Highlight_Ads_on_Google_com.entitlements; sourceTree = "<group>"; };
 		D7ED544023DF373800639A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7ED544323DF373800639A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7ED544523DF373800639A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7ED544723DF373900639A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7ED544923DF373900639A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7ED544E23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Highlight Ads on Google.com Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7ED544E23DF373A00639A5D /* Highlight Ads for Google Search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Highlight Ads for Google Search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ED545323DF373A00639A5D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D7ED545623DF373A00639A5D /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		D7ED545823DF373A00639A5D /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 		D7ED543223DF373800639A5D = {
 			isa = PBXGroup;
 			children = (
-				D7ED543D23DF373800639A5D /* Highlight Ads on Google.com */,
-				D7ED545523DF373A00639A5D /* Highlight Ads on Google.com Extension */,
+				D7ED543D23DF373800639A5D /* Highlight Ads for Google Search */,
+				D7ED545523DF373A00639A5D /* Highlight Ads for Google Search Extension */,
 				D7ED545223DF373A00639A5D /* Frameworks */,
 				D7ED543C23DF373800639A5D /* Products */,
 			);
@@ -94,13 +94,13 @@
 		D7ED543C23DF373800639A5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7ED543B23DF373800639A5D /* Highlight Ads on Google.com.app */,
-				D7ED544E23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex */,
+				D7ED543B23DF373800639A5D /* Highlight Ads for Google Search.app */,
+				D7ED544E23DF373A00639A5D /* Highlight Ads for Google Search Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7ED543D23DF373800639A5D /* Highlight Ads on Google.com */ = {
+		D7ED543D23DF373800639A5D /* Highlight Ads for Google Search */ = {
 			isa = PBXGroup;
 			children = (
 				D7ED543E23DF373800639A5D /* Highlight_Ads_on_Google_com.entitlements */,
@@ -110,7 +110,7 @@
 				D7ED544723DF373900639A5D /* Assets.xcassets */,
 				D7ED544923DF373900639A5D /* Info.plist */,
 			);
-			path = "Highlight Ads on Google.com";
+			path = "Highlight Ads for Google Search";
 			sourceTree = "<group>";
 		};
 		D7ED545223DF373A00639A5D /* Frameworks */ = {
@@ -121,7 +121,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7ED545523DF373A00639A5D /* Highlight Ads on Google.com Extension */ = {
+		D7ED545523DF373A00639A5D /* Highlight Ads for Google Search Extension */ = {
 			isa = PBXGroup;
 			children = (
 				D7ED545623DF373A00639A5D /* SafariExtensionHandler.swift */,
@@ -131,15 +131,15 @@
 				D7ED546223DF373A00639A5D /* Highlight_Ads_on_Google_com_Extension.entitlements */,
 				D7ED546C23DF378500639A5D /* style.css */,
 			);
-			path = "Highlight Ads on Google.com Extension";
+			path = "Highlight Ads for Google Search Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D7ED543A23DF373800639A5D /* Highlight Ads on Google.com */ = {
+		D7ED543A23DF373800639A5D /* Highlight Ads for Google Search */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7ED546923DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads on Google.com" */;
+			buildConfigurationList = D7ED546923DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads for Google Search" */;
 			buildPhases = (
 				D7ED543723DF373800639A5D /* Sources */,
 				D7ED543823DF373800639A5D /* Frameworks */,
@@ -151,14 +151,14 @@
 			dependencies = (
 				D7ED545123DF373A00639A5D /* PBXTargetDependency */,
 			);
-			name = "Highlight Ads on Google.com";
+			name = "Highlight Ads for Google Search";
 			productName = "Highlight Ads on Google.com";
-			productReference = D7ED543B23DF373800639A5D /* Highlight Ads on Google.com.app */;
+			productReference = D7ED543B23DF373800639A5D /* Highlight Ads for Google Search.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D7ED544D23DF373A00639A5D /* Highlight Ads on Google.com Extension */ = {
+		D7ED544D23DF373A00639A5D /* Highlight Ads for Google Search Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7ED546523DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads on Google.com Extension" */;
+			buildConfigurationList = D7ED546523DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads for Google Search Extension" */;
 			buildPhases = (
 				D7ED544A23DF373A00639A5D /* Sources */,
 				D7ED544B23DF373A00639A5D /* Frameworks */,
@@ -168,9 +168,9 @@
 			);
 			dependencies = (
 			);
-			name = "Highlight Ads on Google.com Extension";
+			name = "Highlight Ads for Google Search Extension";
 			productName = "Highlight Ads on Google.com Extension";
-			productReference = D7ED544E23DF373A00639A5D /* Highlight Ads on Google.com Extension.appex */;
+			productReference = D7ED544E23DF373A00639A5D /* Highlight Ads for Google Search Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D7ED543623DF373800639A5D /* Build configuration list for PBXProject "Highlight Ads on Google.com" */;
+			buildConfigurationList = D7ED543623DF373800639A5D /* Build configuration list for PBXProject "Highlight Ads for Google Search" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -204,8 +204,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7ED543A23DF373800639A5D /* Highlight Ads on Google.com */,
-				D7ED544D23DF373A00639A5D /* Highlight Ads on Google.com Extension */,
+				D7ED543A23DF373800639A5D /* Highlight Ads for Google Search */,
+				D7ED544D23DF373A00639A5D /* Highlight Ads for Google Search Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +256,7 @@
 /* Begin PBXTargetDependency section */
 		D7ED545123DF373A00639A5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D7ED544D23DF373A00639A5D /* Highlight Ads on Google.com Extension */;
+			target = D7ED544D23DF373A00639A5D /* Highlight Ads for Google Search Extension */;
 			targetProxy = D7ED545023DF373A00639A5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,12 +397,12 @@
 		D7ED546623DF373A00639A5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Highlight Ads for Google Search Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Highlight Ads on Google.com Extension/Info.plist";
+				INFOPLIST_FILE = "Highlight Ads for Google Search Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -419,12 +419,12 @@
 		D7ED546723DF373A00639A5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Highlight Ads for Google Search Extension/Highlight_Ads_on_Google_com_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Highlight Ads on Google.com Extension/Info.plist";
+				INFOPLIST_FILE = "Highlight Ads for Google Search Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -443,13 +443,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com/Highlight_Ads_on_Google_com.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Highlight Ads for Google Search/Highlight_Ads_on_Google_com.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Highlight Ads on Google.com/Info.plist";
+				INFOPLIST_FILE = "Highlight Ads for Google Search/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -466,13 +466,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Highlight Ads on Google.com/Highlight_Ads_on_Google_com.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Highlight Ads for Google Search/Highlight_Ads_on_Google_com.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Highlight Ads on Google.com/Info.plist";
+				INFOPLIST_FILE = "Highlight Ads for Google Search/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -487,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7ED543623DF373800639A5D /* Build configuration list for PBXProject "Highlight Ads on Google.com" */ = {
+		D7ED543623DF373800639A5D /* Build configuration list for PBXProject "Highlight Ads for Google Search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7ED546323DF373A00639A5D /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7ED546523DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads on Google.com Extension" */ = {
+		D7ED546523DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads for Google Search Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7ED546623DF373A00639A5D /* Debug */,
@@ -505,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7ED546923DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads on Google.com" */ = {
+		D7ED546923DF373A00639A5D /* Build configuration list for PBXNativeTarget "Highlight Ads for Google Search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7ED546A23DF373A00639A5D /* Debug */,
